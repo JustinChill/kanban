@@ -1,6 +1,5 @@
 import { TicketData } from '../interfaces/TicketData';
 import { ApiMessage } from '../interfaces/ApiMessage';
-import { useAuth } from '../context/AuthContext';
 
 const retrieveTickets = async () => {
   try {
